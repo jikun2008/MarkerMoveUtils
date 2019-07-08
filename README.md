@@ -1,7 +1,7 @@
 # MarkerMoveUtils
 可以在高德地图平滑移动marker工具
 
-### 效果图如下:
+### 效果图如下(效果图分辨率太低,感觉不流畅,其实效果很不错):
 
 ![image](https://raw.githubusercontent.com/jikun2008/MarkerMoveUtils/master/pic/show.gif)
 
