@@ -7,6 +7,7 @@
 
 
 #### 如何使用
+##### !!!!! 请在使用前 将高德地图的sdk加到工程中
 ```
 	allprojects {
 		repositories {
