@@ -6,7 +6,7 @@
 ![image](https://raw.githubusercontent.com/jikun2008/MarkerMoveUtils/master/pic/show.gif)
 
 
-
+#### 如何使用
 ```
 	allprojects {
 		repositories {
@@ -23,8 +23,8 @@
 ```
 
 
-```
-
+#### code
+```java
         moveUtils = new MoveUtils();
 
         moveUtils.setCallBack(new MoveUtils.OnCallBack() {
@@ -40,5 +40,4 @@
         
              LatLng center = new LatLng(30.546284, 104.06934);
         moveUtils.startMove(List<LatLng> 5000, false);
-
 ```
