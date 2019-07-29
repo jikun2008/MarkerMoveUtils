@@ -39,6 +39,7 @@ public class MoveUtils implements CustomAnimator.OnTimeListener {
      */
     public void startMove(LatLng latLng, long time, boolean isContinue) {
         List<LatLng> list = new ArrayList<>();
+        list.add(latLng);
         startMove(list, time, isContinue);
     }
 
