@@ -7,6 +7,7 @@
 
 
 #### 如何使用
+##### !!!!! 请在使用前 将高德地图的sdk加到工程中
 ```
 	allprojects {
 		repositories {
@@ -18,7 +19,7 @@
 	
 	
 		dependencies {
-	        implementation 'com.github.jikun2008:MarkerMoveUtils:Tag'
+	         implementation 'com.github.jikun2008:MarkerMoveUtils:v1.0.0'
 	}
 ```
 
@@ -39,5 +40,5 @@
         
         
              LatLng center = new LatLng(30.546284, 104.06934);
-        moveUtils.startMove(List<LatLng> 5000, false);
+        moveUtils.startMove(List<LatLng>,5000, false);
 ```
