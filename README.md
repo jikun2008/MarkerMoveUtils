@@ -19,7 +19,7 @@
 	
 	
 		dependencies {
-	         implementation 'com.github.jikun2008:MarkerMoveUtils:v1.0.0'
+	          implementation 'com.github.jikun2008:MarkerMoveUtils:1.0.1'
 	}
 ```
 
